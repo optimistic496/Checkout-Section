@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Checkout Page</title>
+</head>
+
+<body>
+    <h1>Checkout</h1>
+    <section>
+        <h2>Your Cart</h2>
+        <figure>
+            <img src="https://cdn.freecodecamp.org/curriculum/labs/cube.jpg" alt="Left-handed spoon">
+            <figcaption>Left-handed spoon</figcaption>
+        </figure>
+    </section>
+
+
+    <section>
+        <h2>Payment Information</h2>
+        <form>
+            <fieldset>
+                <legend>Card Details                </legend>
+                <label for="card-name" span="*" aria-hidden="true" >Card Name <span aria-hidden="true">*</span> </label>
+<input type="text" required id="card-name"name="card-name">
+<br>
+<br>
+<label for="card-number" span="*" aria-hidden="true">Card Number <span aria-hidden="true">*</span> </label>
+<input type="text"  required aria-required="true" aria-describedby="card-number-help" aria-decribedby="card-number-help" id="card-number"name="card-number">
+<p id="card-number-help" aria-decribedby> Please enter your 16-digit card number without spaces or dashes.</p>
+                
+                </fieldset> 
+
+        </form>
+    </section>
+
+</body>
+
+</html>
